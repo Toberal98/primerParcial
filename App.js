@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, Image, StyleSheet} from 'react-native';
 
-const ViewBoxesWithColorAndText = () => {
+const App = () => {
   return (
     <>
       <Image
@@ -96,4 +96,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default ViewBoxesWithColorAndText;
+export default App;
